@@ -1,0 +1,40 @@
+form{
+	display: block;
+	margin-top: 0em;
+}
+
+legend{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+fieldset{
+	display: block;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 0.35em;
+	padding-bottom: 0.625em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: 2px groove;
+}
+
+input{
+	border: 2px groove;
+}
+
+textarea{
+	border: 2px groove;
+	resize: none;
+}
+
+form p{
+	padding: 0.35em 0;
+}
+
+#regards{
+	text-align: center;
+	padding: 0.35em 0;
+	font-style: none; 
+}

@@ -1,0 +1,27 @@
+.content{
+	display: block;
+	padding-top: 7vh;
+	
+}
+
+.content h1{
+	text-align: center;
+	font-size: 2em;
+
+}
+
+#fotos img{
+	width: 500px;
+	height: 300px;
+}
+#fotos{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2vw;
+	margin: 4vh 0 0 0;
+}
+
+#fotos figcaption{
+	margin-top: 10px;
+	text-align: center;
+}

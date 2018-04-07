@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Nosso Site</title>
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="../css/contato.css">
+		<link rel="icon" href="../favicon/favicon.ico">
+	</head>
+	<body>
+		<header id="mainHeader">
+			<div class="banner"></div>
+      		
+      		<div class="content-wrap">
+		  		<h1>LUCAS STOLLER</h1>
+		  		<h2>Nosso Site</h2>
+		  	</div>
+
+			<nav id="mainNav">
+	        	<ul>
+	             	<li><a href="../index.html">Home</a></li>
+	             	<li><a href="midias.html">Mídias</a></li>
+	             	<li><a href="fotos.html">Fotos</a></li>
+	            	<li><a href="contato.html">Contato</a></li>
+	        	</ul>
+	  		</nav>
+		</header>
+
+		<div class="content">
+			<section id="mainSection">
+			
+				<form name="contato" method="post" action="mailto:seu@email.com">
+		 			<fieldset>
+			 			<legend>Contato</legend>	
+			   			
+			   			<p>
+			   				<label for="nome">Nome:</label>
+			   				<input type="text" id="nome" name="nome" size="40" placeholder="Insira seu Nome" autofocus required />
+			   			</p>
+			   			
+			   			<p>
+			   				<label for="email">Email:</label>
+			   				<input type="email" id ="email" name="email" size="40" placeholder="Insira seu Email" required />
+			   			</p>
+
+			   			<p>
+			   				<label>Assinante:</label>
+			   				
+			   				<label>Sim<input type="radio" id="sim" name="enq" value="s" checked="checked"/></label>
+
+			      			<label>Nao<input type="radio" id="nao" name="enq" value="n" /></label>
+			      		</p>
+
+			 			<p>
+			 				<label for="news">Notícias?</label>
+			 				<input type="checkbox" value="s" id="news" name="news" checked/>
+			 			</p>
+			 			
+			 			<p>
+			 				<label for="regiao">Região:</label>  
+			        		<select id="regiao" name="regiao">
+				  				<option value="norte">Norte</option>
+				  				<option value="sul" selected>Sul</option>
+				  				<option value="sudeste">Sudeste</option>
+				  				<option value="nordeste">Nordeste</option>
+				  				<option value="centro-oeste">Centro-Oeste</option>
+			        		</select>
+			   			</p>
+
+			 			<p>
+			   				<label for="coment">Comentário: 
+			   					<textarea cols="40" rows="4" id="coment" name="coment" placeholder="Deixe um comentário"></textarea>
+			   				</label>
+			 			</p>
+
+			 			<p>
+			 				<input type="submit" value="Enviar" id="enviar" />
+			 				<input type="reset" value="Limpar" id="limpar"/>
+			 			</p>
+
+		 			</fieldset>
+
+		 			<h3 id="regards"><em>Obrigado pela prefêrência!!</em></h3>
+				</form>
+				
+
+			</section>
+		</div>
+
+		<footer id="mainFooter">
+			<table>
+	           <tr>
+	             <td><a href="index.html">Home</a></td>
+	             <td><a href="html/midias.html">Mídias</a></td>
+	             <td><a href="html/fotos.html">Fotos</a></td>
+	             <td><a href="html/contato.html">Contato</a></td>
+	           </tr>
+	           <tr>
+	           	<td>Writen e Designed by <span id="credits"><a href="https://twitter.com/stollerlucas">Lucas Stoller</a></span></td>
+	           </tr>
+	       	</table>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,34 @@
+.content{
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	padding-top: 7vh;
+	padding-bottom: 4vh;
+}
+
+.content h1{
+	font-size: 40px;
+	text-align: center;
+}
+
+.content h2{
+	font-size: 25px;
+	color: black; 
+}
+
+
+#mainSection{
+	grid-column: 2;
+}
+
+.midia{
+	margin: 3vw 0;
+	padding-left: 8vw;
+	display: grid;
+	grid-row-gap: 1vw;
+
+}
+
+.midia h2{
+	text-align: left;
+}

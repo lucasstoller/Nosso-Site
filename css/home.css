@@ -1,0 +1,25 @@
+/*HEADER*/
+
+.content{
+	display: grid;
+	width: 100vw;
+    grid-template-columns: 1fr 2fr;
+    padding: 5vw 10vw 5vw 10vw;
+}
+
+#mainSection{
+	grid-column: 1;
+}
+
+article p{
+	padding: 5px 0;
+	font-size: 22px;
+}
+
+article h1{font-size: 2em;}
+
+#aside1{
+	display: flex;
+    justify-content: center;
+    align-items: center
+}
